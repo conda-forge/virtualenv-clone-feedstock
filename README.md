@@ -15,14 +15,15 @@ A script for cloning a non-relocatable virtualenv.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/virtualenv-clone-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/virtualenv-clone-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/virtualenv-clone-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/virtualenv-clone-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/virtualenv-clone-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/virtualenv-clone-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/virtualenv-clone-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/virtualenv-clone-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/virtualenv-clone/badges/version.svg)](https://anaconda.org/conda-forge/virtualenv-clone)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/virtualenv-clone/badges/downloads.svg)](https://anaconda.org/conda-forge/virtualenv-clone)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-virtualenv--clone-green.svg)](https://anaconda.org/conda-forge/virtualenv-clone) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/virtualenv-clone.svg)](https://anaconda.org/conda-forge/virtualenv-clone) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/virtualenv-clone.svg)](https://anaconda.org/conda-forge/virtualenv-clone) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/virtualenv-clone.svg)](https://anaconda.org/conda-forge/virtualenv-clone) |
 
 Installing virtualenv-clone
 ===========================
