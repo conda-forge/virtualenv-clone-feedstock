@@ -1,6 +1,6 @@
 {% set name = "virtualenv-clone" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "b5cfe535d14dc68dfc1d1bb4ac1209ea28235b91156e2bba8e250d291c3fb4f8" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "06c5a8bc77f3ed0ad130a690e623e27e07b6599dbdbf83e089cc3a2c6b191da0" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - virtualenv-clone=clonevirtualenv:main
