@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About virtualenv-clone
 ======================
 
@@ -19,8 +15,15 @@ A script for cloning a non-relocatable virtualenv.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/virtualenv-clone-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/virtualenv-clone-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3646&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/virtualenv-clone-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
