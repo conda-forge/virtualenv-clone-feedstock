@@ -1,6 +1,6 @@
 {% set name = "virtualenv-clone" %}
-{% set version = "0.5.3" %}
-{% set sha256 = "c88ae171a11b087ea2513f260cdac9232461d8e9369bcd1dc143fc399d220557" %}
+{% set version = "0.5.4" %}
+{% set sha256 = "665e48dd54c84b98b71a657acb49104c54e7652bce9c1c4f6c6976ed4c827a29" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - virtualenv-clone=clonevirtualenv:main
 
@@ -35,7 +35,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'script to clone virtualenvs.'
+  summary: script to clone virtualenvs.
   description: |
     A script for cloning a non-relocatable virtualenv.
   doc_url: https://github.com/edwardgeorge/virtualenv-clone/
