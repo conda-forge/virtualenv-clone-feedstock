@@ -1,6 +1,6 @@
 {% set name = "virtualenv-clone" %}
-{% set version = "0.5.4" %}
-{% set sha256 = "665e48dd54c84b98b71a657acb49104c54e7652bce9c1c4f6c6976ed4c827a29" %}
+{% set version = "0.5.5" %}
+{% set sha256 = "fa23525c4fcc7ff91248beeee53317dd6ac5e74c0e5c66c1807c1b0b7d948ab6" %}
 
 package:
   name: {{ name|lower }}
